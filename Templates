@@ -1,0 +1,318 @@
+# $TICKER — Equity Research Write-Up
+**Date:** YYYY-MM-DD  
+**Analyst:** Cameron  
+**Current Price:** $XX.XX  
+**Price Target:** $XX.XX — $XX.XX  
+**Conviction:** High / Medium / Low  
+**Time Horizon:** X–X months
+
+---
+
+## 1. Business Overview & Moat
+
+> *What does this company do, and why does it win?*
+
+**Sector / Industry:**  
+**Market Cap:**  
+**Revenue (TTM):**  
+**Business Model:**
+
+<!-- Fill in: core products/services, revenue mix, key customers, geographic exposure -->
+
+### Competitive Advantages (Moat)
+- [ ] Network effects
+- [ ] Switching costs
+- [ ] Cost advantages / scale
+- [ ] Intangibles (brand, IP, licenses)
+- [ ] Efficient scale / niche dominance
+
+**Moat Summary:**
+> _Describe the moat in 2–3 sentences. How durable is it? What could erode it?_
+
+---
+
+## 2. Financial Snapshot
+
+> *Pulled from model.xlsx — flag anything that looks off.*
+
+| Metric | FY-1 | FY0 (LTM) | YoY Δ |
+|---|---|---|---|
+| Revenue ($M) | | | |
+| Gross Margin % | | | |
+| Operating Income ($M) | | | |
+| Net Income ($M) | | | |
+| EPS (diluted) | | | |
+| Free Cash Flow ($M) | | | |
+| Net Debt / (Cash) ($M) | | | |
+| ROIC % | | | |
+
+**Key Observations:**
+- 
+- 
+- 
+
+---
+
+## 3. Valuation
+
+### Relative Valuation
+
+| Multiple | $TICKER | Industry Avg | S&P 500 Avg | Notes |
+|---|---|---|---|---|
+| P/E (NTM) | | | | |
+| P/S | | | | |
+| EV/EBITDA | | | | |
+| P/FCF | | | | |
+| PEG Ratio | | | | |
+
+**Relative Valuation Take:**
+> _Is the stock cheap, fairly valued, or expensive vs. peers? Why does the discount/premium exist? Is it justified?_
+
+### DCF Summary (from model.xlsx)
+
+| Scenario | Implied Value | Upside / Downside |
+|---|---|---|
+| Bear | $XX.XX | XX% |
+| Base | $XX.XX | XX% |
+| Bull | $XX.XX | XX% |
+
+**DCF Assumptions:**
+- Revenue CAGR (5yr): XX%
+- Terminal Growth Rate: XX%
+- Discount Rate (WACC): XX%
+- Exit Multiple: XX.Xx
+
+### CAGR Check
+
+| Metric | 1-Year | 3-Year | 5-Year |
+|---|---|---|---|
+| Revenue CAGR | | | |
+| EPS CAGR | | | |
+| FCF CAGR | | | |
+| Stock Price CAGR | | | |
+
+---
+
+## 4. Technical Setup
+
+> *Where is the stock relative to key levels? Is there a reversal signal?*
+
+**Key Moving Averages:**
+| MA | Level | Stock vs. MA |
+|---|---|---|
+| 200-Day SMA | $XX.XX | Above / Below / At |
+| 75-Day SMA | $XX.XX | Above / Below / At |
+| 50-Day SMA | $XX.XX | Above / Below / At |
+
+**Recent Price Action:**
+- Prior High: $XX.XX
+- Prior Low / Support: $XX.XX
+- Current drawdown from high: XX%
+- % above 52-week low: XX%
+
+**Reversal Signals Present?**
+- [ ] Higher low forming
+- [ ] Reclaim of 75-day or 200-day SMA
+- [ ] Volume expansion on up days
+- [ ] Bullish divergence on RSI/MACD
+- [ ] Earnings gap fill or support hold
+
+**Technical Summary:**
+> _Is there a clear entry trigger? Where would you size in? Where does the thesis break?_
+
+---
+
+## 5. Catalysts
+
+> *What will move the stock? Near-term and longer-term.*
+
+### Near-Term (0–3 months)
+- 
+- 
+
+### Medium-Term (3–12 months)
+- 
+- 
+
+### Long-Term (1yr+)
+- 
+- 
+
+**Next Earnings Date:** YYYY-MM-DD  
+**Key Events to Watch:**
+
+---
+
+## 6. Risks
+
+| Risk | Severity (H/M/L) | Likelihood (H/M/L) | Mitigation |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+
+**Thesis-Breakers (would cause me to exit):**
+- 
+- 
+
+---
+
+## 7. Position Sizing & Entry Plan
+
+**Account / Portfolio context:**  
+**Max position size:** XX% of portfolio  
+
+| Tranche | Trigger | Size | Price Target |
+|---|---|---|---|
+| Initial | | XX% | $XX.XX |
+| Add | | XX% | $XX.XX |
+| Full | | XX% | $XX.XX |
+
+**Stop / Invalidation level:** $XX.XX  
+**Target exit:** $XX.XX — $XX.XX  
+**Risk/Reward ratio:** X.Xx
+
+---
+
+## 8. Final Verdict
+
+> *One paragraph. Would you buy this today, and why?*
+
+**Rating:** BUY / WATCH / PASS  
+**Confidence:** High / Medium / Low  
+**Summary:**
+
+---
+
+*📁 See `model.xlsx` for full DCF, comps, and financial history.*  
+*⚠️ Fields marked with `<!-- TODO -->` require data from 10-K/10-Q or earnings release.*
+
+# $TICKER — Trade Log & Notes
+
+## Position History
+
+| Date | Action | Price | Size | Notes |
+|---|---|---|---|---|
+| | | | | |
+
+## Thesis Updates
+
+### YYYY-MM-DD
+> _What changed? Earnings beat/miss, guidance, macro, technicals. Does the thesis still hold?_
+
+---
+
+## Quick Reference
+
+**Entry trigger:**  
+**Stop level:** $  
+**Target:** $  
+**Current conviction:** High / Medium / Low  
+
+---
+
+## Earnings Tracker
+
+| Quarter | EPS Est | EPS Act | Rev Est | Rev Act | Guidance | Reaction |
+|---|---|---|---|---|---|---|
+| | | | | | | |
+
+# 📊 Equity Research System
+
+Personal stock analysis framework for value + reversal investing and options strategy (wheel/CSP).
+
+---
+
+## 🗂️ Repository Structure
+
+```
+/
+├── README.md
+├── templates/
+│   ├── analysis_template.md     ← Write-up template (copy per ticker)
+│   └── model_template.xlsx      ← Excel model (copy per ticker)
+│
+├── analyses/
+│   └── TICKER/
+│       ├── analysis.md          ← Completed write-up
+│       ├── model.xlsx           ← Filled financial model
+│       └── notes.md             ← Quick trade log / updates
+│
+└── csp/                         ← Phase 2: Wheel / CSP templates
+    └── (coming soon)
+```
+
+---
+
+## 🚀 How to Use
+
+### Starting a new analysis
+
+1. Copy `templates/analysis_template.md` → `analyses/TICKER/analysis.md`
+2. Copy `templates/model_template.xlsx` → `analyses/TICKER/model.xlsx`
+3. Feed Claude the ticker and any available data — he'll research and fill what he can, flag the rest
+4. Fill yellow cells in `model.xlsx` with sourced financials
+5. Run through the write-up checklist
+
+### Analysis workflow
+
+| Step | What to do |
+|---|---|
+| 1. Financials | Pull from 10-K / 10-Q (SEC EDGAR) or earnings releases. Fill `Financials` tab |
+| 2. Assumptions | Set DCF inputs in `Assumptions` tab (yellow cells) |
+| 3. Valuation | Add comps in `Valuation` tab. Review DCF scenarios |
+| 4. Write-up | Complete `analysis.md` — sections 1–8 |
+| 5. Decision | Rate as BUY / WATCH / PASS with conviction level |
+
+---
+
+## 📋 Template Sections (Write-Up)
+
+| # | Section | What It Covers |
+|---|---|---|
+| 1 | Business Overview & Moat | What they do, competitive advantages |
+| 2 | Financial Snapshot | Revenue, margins, FCF, ROIC summary |
+| 3 | Valuation | DCF scenarios, CAGR, relative comps vs. industry |
+| 4 | Technical Setup | SMA levels, drawdown, reversal signals |
+| 5 | Catalysts | Near/medium/long-term price movers |
+| 6 | Risks | Risk matrix + thesis-breakers |
+| 7 | Position Sizing | Tranche entry plan, stop, R/R ratio |
+| 8 | Final Verdict | BUY / WATCH / PASS + one-paragraph summary |
+
+---
+
+## 📐 Excel Model Tabs
+
+| Tab | Color | Purpose |
+|---|---|---|
+| Cover | 🔵 Navy | Ticker info, price target, conviction |
+| Assumptions | 🔴 Red | All DCF + valuation inputs (edit here) |
+| Financials | 🟢 Green | 2yr historical: P&L, Balance Sheet, Cash Flow, Ratios |
+| Valuation | 🟣 Purple | CAGR table, DCF (Bear/Base/Bull), Comps vs. industry avg |
+
+> **Color coding:** Blue text = hardcoded inputs · Black = formulas · Yellow background = needs your data
+
+---
+
+## 🎯 Investment Criteria (Value + Reversal)
+
+A stock earns a **BUY** rating when it satisfies most of the following:
+
+- [ ] Trading below fair value on DCF and/or at discount to industry P/E
+- [ ] Quality business: durable moat, positive FCF, reasonable debt
+- [ ] Meaningful drawdown from highs (entry at value, not euphoria)
+- [ ] Technical reversal signal: higher low, SMA reclaim, volume confirmation
+- [ ] Clear catalysts within 3–12 months
+- [ ] Asymmetric R/R: target upside >2x the downside to stop
+
+---
+
+## 📁 Completed Analyses
+
+| Ticker | Date | Rating | Target | Status |
+|---|---|---|---|---|
+| — | — | — | — | — |
+
+---
+
+*Built for personal use. Not financial advice.*
